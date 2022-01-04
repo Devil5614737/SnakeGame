@@ -42,16 +42,14 @@ function isCollide(snake){
 
 function gameEngine(){
     gameSound.play()
-
     if(isCollide(snakeArr)){
         gameOver.play()
         gameSound.pause()
-        speed=0
         inputArr={x:0,y:0};
-
         alert('Game over.Press any to start again..')
         snakeArr=[{x:8,y:12}]
         score=0
+        speed=6;
         
     }
     
