@@ -35,8 +35,8 @@ body::before{
 .board{ 
     width: 450px;
     height: 450px;
-    background: linear-gradient(131.58deg, rgba(58, 57, 57, 0.1) 19.97%, rgba(52, 51, 51, 0) 95.54%);
-backdrop-filter: blur(26px);
+  background: linear-gradient(131.58deg, rgba(58, 57, 57, 0.5) 19.97%, rgba(52, 51, 51, 0) 95.54%);
+backdrop-filter: blur(76px);
 display: grid;
 grid-template-columns: repeat(18,1fr);
 grid-template-rows: repeat(18,1fr);
